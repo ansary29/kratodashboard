@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    height: 100vh;
+    margin: 1rem;
+}
+
+.rig{
+    width: 20%;
+     
+    height: 100%;
+    /* border-radius: 10px; */
+
+    text-align: center;
+}
+.center {
+    width: 80%;
+}
+
+@media only screen and (max-width:600px){
+    .main{
+        flex-direction: column;
+    }
+
+    
+}
